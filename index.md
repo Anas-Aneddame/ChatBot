@@ -13,6 +13,7 @@
     {
         scrt2URL: 'https://daj00000fxkbbeaf-dev-ed.develop.my.salesforce-scrt.com',
         onMessageReceived: function(message) {
+	console.log('hiiii');
             // Vérifiez si le message contient une balise <a>
             if (message.text && message.text.includes('<a href=')) {
                 // Remplacez ou injectez le contenu HTML dans le DOM
